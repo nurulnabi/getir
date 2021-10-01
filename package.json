@@ -1,0 +1,18 @@
+{
+  "name": "getir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "dotenv": "^10.0.0",
+    "mongodb": "^4.1.2"
+  }
+}
