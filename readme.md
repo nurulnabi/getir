@@ -11,5 +11,6 @@
 add env variables in .env file 
 
 MONGO_URI=uri
+
 PORT=port
 	
