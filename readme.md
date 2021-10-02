@@ -10,6 +10,6 @@
 # Environment Variables
 add env variables in .env file 
 
-MONGO_URI=<URI>
-PORT=<PORT>
+MONGO_URI=uri
+PORT=port
 	
