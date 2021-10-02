@@ -8,4 +8,9 @@
 	`npm run test`
 
 # Environment Variables
-put all env in .evn files as KEY=VALUE pair on each line
+add env variables in .env file 
+
+MONGO_URI=uri
+
+PORT=port
+	
