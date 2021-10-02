@@ -3,7 +3,6 @@ let chaiHttp = require('chai-http');
 var should = chai.should();
 chai.use(chaiHttp);
 
-process.env.MONGO_URI = "mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true";
 //Our parent block
 describe('Server Tests', () => {
 	let server;
