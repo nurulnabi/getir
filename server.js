@@ -10,9 +10,8 @@ async function bootstrap() {
 	app.use(bodyParser.json());
 	app.use(middlewares);
 	app.use(routes);
-	app.use(function(err, req, res, next) {
-		res.send({ code: 500, msg: err });
-	})
+	app.use(function(req, res) { res.send({ code: 404, msg: 'Invalid Route' }); })
+	app.use(function(err, req, res, next) { res.send({ code: 500, msg: err }); })
 
 	await mongoConnector.init();
 	let port = process.env.PORT || 5000;
